@@ -1,0 +1,65 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dt,
+dd,
+input,
+legend,
+fieldset,
+select,
+option {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+}
+em,
+i,
+b,
+strong {
+    font-weight: normal;
+    font-style: normal;
+}
+a,
+del,
+s {
+    text-decoration: none;
+}
+*{box-sizing: border-box}
+li {
+    list-style-type: none;
+}
+body {
+    font: 14px "微软雅黑", tahoma, arial, \5b8b\4f53, sans-serif;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.indent9999 {
+    text-indent: 9999px;
+    overflow: hidden;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
